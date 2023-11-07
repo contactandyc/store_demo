@@ -1,0 +1,31 @@
+image,name,description,min_price,max_price
+acne,Acne Cream,Over-the-counter acne cream,6.99,25.99
+antiseptic_wipes,Antiseptic Wipes,Antiseptic cleansing wipes for wounds,3.99,9.99
+blood_glucose_monitor,Glucose Monitoring System,Blood glucose meter for diabetes management,20.99,75.99
+blood_pressure_monitor,Blood Pressure Monitor,Automatic blood pressure monitor for home use,25.99,80.99
+cholesteral_test_kit,Cholesterol Test Kit,Home cholesterol testing kit,19.99,50.99
+compression_socks,Compression Socks,Support socks for circulation improvement,15.99,45.99
+crutches,Walking Crutches,Mobility aids for walking support,49.99,199.99
+dental_floss,Dental Floss,Multi-filament dental floss,2.99,6.99
+ear_plugs_,Ear Plugs,Silicone ear plugs for noise reduction,0.99,4.99
+ear_wax_removal_,Ear Wax Removal System,A tool for removing ear wax from your ears,30.99,41.99
+elastic_bandages,Elastic Bandages,Elastic bandages for sprain treatment,1.99,9.99
+exercise_bike,Exercise Bike,Indoors cycling to improve cardiovascular health,499.99,999.99
+eye_glasses,Eye Glasses,Prescription strength eye glasses,29.99,299.99
+first_aid_kit,First Aid Kit,Complete first aid kit for emergency treatment,15.99,49.99
+gel_ice_pack,Ice Pack,Reusable gel ice pack for injuries,4.99,14.99
+heating_pad,Heating Pad,Electric heating pad for pain relief,18.99,45.99
+humidifier,Humidifier,Portable room humidifier for moisture control,24.99,70.00
+knee_brace,Knee Brace,Stabilizing brace for knee joints,14.99,60.99
+lactose_intolerance_pills,Lactose Intolerance Pills,Supplements to prevent lactose intolerance symptoms,12.99,29.99
+nasal_spray,Nasal Spray,Saline nasal spray for sinus relief,3.99,10.99
+neti_pot,Neti Pot,Sinus rinse kit for nasal irrigation,10.99,25.99
+pill_organizer,Pill Organizer,Weekly pill organizer for medication management,1.99,9.99
+portable_breathalyzer,Breathalyzer,Portable breathalyzer to estimate blood alcohol content,40.99,120.99
+prenatal_vitamins,Prenatal Vitamins,Daily vitamins for prenatal care,9.99,39.99
+stethoscope,Stethoscope,Tool for listening to heartbeat and breathing,25.99,99.99
+sunscreen,Sunscreen,Broad-spectrum UV protection sunscreen,5.99,25.99
+thermometer_,Thermometer,Digital thermometer for precise temperature measurement,5.99,40.99
+tooth_brush,Tooth Brush,Used to keep your teeth clean,0.99,9.99
+treadmill,Treadmill,Walk in place to lose weight,399.99,999.99
+wrist_brace,Wrist Brace,Wrist brace for carpal tunnel relief,12.99,35.99

@@ -1,0 +1,12 @@
+psycopg2-binary
+ipython-sql
+sqlalchemy
+pandas
+matplotlib
+psycopg2
+plotly
+jupyter
+torch
+torchviz
+graphviz
+optuna

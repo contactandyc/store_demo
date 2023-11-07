@@ -1,0 +1,696 @@
+openapi: 3.0.0
+info:
+  title: Store Demo API
+  version: 1.0.0
+  description: API for managing merchants and users
+servers:
+  - url: http://localhost:3001/api
+    description: Local server
+paths:
+  /merchants:
+    get:
+      tags:
+        - Merchants
+      summary: List all merchants
+      responses:
+        '200':
+          description: A list of merchants.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Merchant'
+    post:
+      tags:
+        - Merchants
+      summary: Create a new merchant
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Merchant'
+      responses:
+        '201':
+          description: Merchant created.
+        '400':
+          description: Invalid input.
+  /merchants-with-top-products:
+    get:
+      summary: Get merchants with their top 5 products
+      tags:
+        - Merchants
+      description: Retrieve a list of merchants along with their top 5 products based on price.
+      responses:
+        '200':
+          description: A JSON array of merchants with top products
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/MerchantWithProducts'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /merchants/{merchantId}:
+    get:
+      tags:
+        - Merchants
+      summary: Get a merchant by ID
+      parameters:
+        - name: merchantId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Details of a merchant.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Merchant'
+        '404':
+          description: Merchant not found.
+    put:
+      tags:
+        - Merchants
+      summary: Update a merchant by ID
+      parameters:
+        - name: merchantId
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Merchant'
+      responses:
+        '200':
+          description: Merchant updated.
+        '404':
+          description: Merchant not found.
+    delete:
+      tags:
+        - Merchants
+      summary: Delete a merchant by ID
+      parameters:
+        - name: merchantId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Merchant deleted.
+        '404':
+          description: Merchant not found.
+  /merchants/{merchantId}/orders/random:
+    post:
+      summary: Create random orders for a merchant
+      tags:
+        - Merchants
+      description: Creates a specified number of random orders for the given merchant ID.
+      parameters:
+        - name: merchantId
+          in: path
+          required: true
+          type: integer
+          description: The ID of the merchant.
+        - name: numOrders
+          in: query
+          required: true
+          type: integer
+          description: The number of random orders to generate.
+      responses:
+        '200':
+          description: Successfully created random orders.
+        '400':
+          description: Invalid input.
+        '404':
+          description: Merchant not found.
+        '500':
+          description: Internal server error.
+  /users:
+    get:
+      summary: Get all users
+      tags:
+        - Users
+      responses:
+        '200':
+          description: A list of users
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+    post:
+      summary: Create a new user
+      tags:
+        - Users
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        '201':
+          description: User created
+  /users/{id}:
+    get:
+      summary: Get a user by ID
+      tags:
+        - Users
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Details of a user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '404':
+          description: User not found
+    put:
+      summary: Update a user by ID
+      tags:
+        - Users
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        '200':
+          description: User updated
+    delete:
+      summary: Delete a user by ID
+      tags:
+        - Users
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: User deleted
+  /users/{userId}/history:
+    get:
+      tags:
+        - Users
+      summary: Get history for a user
+      description: Retrieve the history of changes made to a user's record.
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          description: The user ID to retrieve history for.
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: History records retrieved successfully.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/UserHistory'
+        '400':
+          description: Invalid user ID supplied.
+        '404':
+          description: User not found.
+        '500':
+          description: A server error occurred.
+
+  /merchants/{merchantId}/users:
+    get:
+      summary: Get Users by Merchant ID
+      tags:
+        - Users
+      parameters:
+        - in: path
+          name: merchantId
+          required: true
+          schema:
+            type: integer
+            format: int64
+          description: The ID of the merchant
+      responses:
+        '200':
+          description: An array of users for the specified merchant
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+        '500':
+          description: Internal server error
+
+  /payment-methods:
+    get:
+      summary: Get All Payment Methods
+      tags:
+        - Payment Methods
+      responses:
+        '200':
+          description: A list of payment methods
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PaymentMethod'
+        '500':
+          description: Internal server error
+
+    post:
+      summary: Create a Payment Method
+      tags:
+        - Payment Methods
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PaymentMethod'
+      responses:
+        '201':
+          description: Payment method created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaymentMethod'
+        '500':
+          description: Internal server error
+
+  /payment-methods/{id}:
+    get:
+      summary: Get Payment Method by ID
+      tags:
+        - Payment Methods
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+            format: int64
+          description: The payment method ID
+      responses:
+        '200':
+          description: Details of the payment method
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaymentMethod'
+        '404':
+          description: Payment method not found
+        '500':
+          description: Internal server error
+    put:
+      summary: Update Payment Method
+      tags:
+        - Payment Methods
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+            format: int64
+          description: The payment method ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PaymentMethod'
+      responses:
+        '200':
+          description: Payment method updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaymentMethod'
+        '404':
+          description: Payment method not found
+        '500':
+          description: Internal server error
+    delete:
+      summary: Delete Payment Method
+      tags:
+        - Payment Methods
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+            format: int64
+          description: The payment method ID
+      responses:
+        '204':
+          description: Payment method deleted successfully
+        '404':
+          description: Payment method not found
+        '500':
+          description: Internal server error
+
+  /users/{userId}/payment-methods:
+    get:
+      summary: Get Payment Methods by User ID
+      tags:
+        - Payment Methods
+      parameters:
+        - in: path
+          name: userId
+          required: true
+          schema:
+            type: integer
+            format: int64
+          description: The ID of the user
+      responses:
+        '200':
+          description: An array of payment methods for the specified user
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PaymentMethod'
+        '500':
+          description: Internal server error
+
+  /merchants/{merchantId}/payment-methods:
+    get:
+      summary: Get Payment Methods by Merchant ID
+      tags:
+        - Payment Methods
+      parameters:
+        - in: path
+          name: merchantId
+          required: true
+          schema:
+            type: integer
+            format: int64
+          description: The ID of the merchant
+      responses:
+        '200':
+          description: An array of payment methods for the specified merchant
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PaymentMethod'
+        '500':
+          description: Internal server error
+
+  /merchants/{merchantId}/users/{userId}/payment-methods:
+    get:
+      summary: Get Payment Methods for a Specific User within a Specific Merchant
+      tags:
+        - Payment Methods
+      parameters:
+        - in: path
+          name: merchantId
+          required: true
+          schema:
+            type: integer
+            format: int64
+          description: The ID of the merchant
+        - in: path
+          name: userId
+          required: true
+          schema:
+            type: integer
+            format: int64
+          description: The ID of the user
+      responses:
+        '200':
+          description: An array of payment methods for the specified user within the specified merchant
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PaymentMethod'
+        '404':
+          description: User or Merchant not found
+        '500':
+          description: Internal server error
+  /products:
+    get:
+      summary: Get products by merchant ID
+      tags:
+        - Products
+      description: Returns a list of products for the specified merchant ID
+      parameters:
+        - name: merchant_id
+          in: query
+          description: ID of the merchant to retrieve products for
+          required: true
+          type: string
+      responses:
+        '200':
+          description: A list of products
+          schema:
+            type: array
+            items:
+              $ref: '#/components/schemas/Product'
+        '400':
+          description: Merchant ID is missing or invalid
+        '500':
+          description: Internal Server Error
+components:
+  schemas:
+    Merchant:
+      type: object
+      required:
+        - name
+      properties:
+        id:
+          type: integer
+          format: int64
+          readOnly: true
+        name:
+          type: string
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          readOnly: true
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+        first_name:
+          type: string
+        last_name:
+          type: string
+        address:
+          type: string
+        city:
+          type: string
+        state:
+          type: string
+        zip_code:
+          type: string
+    UserHistory:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        created_at:
+          type: string
+          format: date-time
+        first_name:
+          type: string
+        last_name:
+          type: string
+        address:
+          type: string
+        city:
+          type: string
+        state:
+          type: string
+        zip_code:
+          type: string
+        user_id:
+          type: integer
+          format: int64
+    PaymentMethod:
+      type: object
+      required:
+        - name_on_card
+        - card_number
+        - expiration_date
+        - cvv
+        - merchant_id
+        - user_id
+      properties:
+        id:
+          type: integer
+          format: int64
+          description: The payment method ID
+        name_on_card:
+          type: string
+          description: Name on the credit/debit card
+        card_number:
+          type: string
+          format: password
+          description: The card number
+        expiration_date:
+          type: string
+          format: date
+          description: The expiration date of the card
+        cvv:
+          type: integer
+          format: int32
+          description: The card CVV number
+        merchant_id:
+          type: integer
+          format: int64
+          description: Associated merchant ID
+        user_id:
+          type: integer
+          format: int64
+          description: Associated user ID
+    Product:
+      type: object
+      required:
+        - id
+        - name
+        - price
+      properties:
+        id:
+          type: integer
+          format: int64
+        image:
+          type: string
+        image_id:
+          type: integer
+          format: int32
+        name:
+          type: string
+        description:
+          type: string
+        price:
+          type: number
+          format: decimal
+        merchant_id:
+          type: integer
+          format: int64
+
+    Order:
+      type: object
+      required:
+        - id
+        - user_id
+        - payment_method_id
+        - order_date
+        - total_amount
+        - status
+      properties:
+        id:
+          type: integer
+          format: int64
+        user_id:
+          type: integer
+          format: int64
+        payment_method_id:
+          type: integer
+          format: int64
+        order_date:
+          type: string
+          format: date-time
+        total_amount:
+          type: number
+          format: decimal
+        status:
+          type: string
+
+    OrderItem:
+      type: object
+      required:
+        - id
+        - order_id
+        - product_id
+        - quantity
+        - price_at_time_of_order
+      properties:
+        id:
+          type: integer
+          format: int64
+        order_id:
+          type: integer
+          format: int64
+        product_id:
+          type: integer
+          format: int64
+        quantity:
+          type: integer
+          format: int32
+        price_at_time_of_order:
+          type: number
+          format: decimal
+        discount_amount:
+          type: number
+          format: decimal
+          default: 0.00
+        discount_reason:
+          type: string
+
+    MerchantWithProducts:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        name:
+          type: string
+          example: 'Merchant 1'
+        products:
+          type: array
+          items:
+            type: string
+            example: 'Product A'
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
+          example: 'Internal Server Error'

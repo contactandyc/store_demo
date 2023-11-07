@@ -1,0 +1,321 @@
+id,image,image_id,name,description,price,merchant_id
+1,thermometer_,0,Thermometer,Digital thermometer for precise temperature measurement,8.15,1
+2,neti_pot,2,Neti Pot,Sinus rinse kit for nasal irrigation,19.25,1
+3,dental_floss,2,Dental Floss,Multi-filament dental floss,6.15,1
+4,stethoscope,3,Stethoscope,Tool for listening to heartbeat and breathing,34.85,1
+5,treadmill,3,Treadmill,Walk in place to lose weight,796.35,1
+6,blood_pressure_monitor,0,Blood Pressure Monitor,Automatic blood pressure monitor for home use,57.85,1
+7,antiseptic_wipes,0,Antiseptic Wipes,Antiseptic cleansing wipes for wounds,8.55,1
+8,eye_glasses,2,Eye Glasses,Prescription strength eye glasses,118.57,1
+9,cholesteral_test_kit,0,Cholesterol Test Kit,Home cholesterol testing kit,24.51,1
+10,sunscreen,3,Sunscreen,Broad-spectrum UV protection sunscreen,22.26,1
+11,crutches,3,Walking Crutches,Mobility aids for walking support,54.75,1
+12,first_aid_kit,3,First Aid Kit,Complete first aid kit for emergency treatment,23.1,1
+13,exercise_bike,0,Exercise Bike,Indoors cycling to improve cardiovascular health,997.49,2
+14,pill_organizer,2,Pill Organizer,Weekly pill organizer for medication management,3.31,2
+15,antiseptic_wipes,0,Antiseptic Wipes,Antiseptic cleansing wipes for wounds,4.12,2
+16,knee_brace,2,Knee Brace,Stabilizing brace for knee joints,55.99,2
+17,tooth_brush,3,Tooth Brush,Used to keep your teeth clean,8.66,2
+18,dental_floss,3,Dental Floss,Multi-filament dental floss,3.11,2
+19,compression_socks,0,Compression Socks,Support socks for circulation improvement,16.48,2
+20,first_aid_kit,1,First Aid Kit,Complete first aid kit for emergency treatment,43.04,2
+21,eye_glasses,2,Eye Glasses,Prescription strength eye glasses,204.95,2
+22,thermometer_,0,Thermometer,Digital thermometer for precise temperature measurement,29.45,2
+23,neti_pot,3,Neti Pot,Sinus rinse kit for nasal irrigation,19.91,2
+24,treadmill,3,Treadmill,Walk in place to lose weight,914.52,2
+25,wrist_brace,3,Wrist Brace,Wrist brace for carpal tunnel relief,15.69,2
+26,gel_ice_pack,2,Ice Pack,Reusable gel ice pack for injuries,7.33,2
+27,prenatal_vitamins,2,Prenatal Vitamins,Daily vitamins for prenatal care,22.69,2
+28,cholesteral_test_kit,3,Cholesterol Test Kit,Home cholesterol testing kit,20.25,2
+29,nasal_spray,1,Nasal Spray,Saline nasal spray for sinus relief,10.99,2
+30,elastic_bandages,0,Elastic Bandages,Elastic bandages for sprain treatment,6.67,2
+31,crutches,2,Walking Crutches,Mobility aids for walking support,173.71,2
+32,blood_pressure_monitor,0,Blood Pressure Monitor,Automatic blood pressure monitor for home use,51.36,2
+33,lactose_intolerance_pills,1,Lactose Intolerance Pills,Supplements to prevent lactose intolerance symptoms,15.31,2
+34,blood_glucose_monitor,2,Glucose Monitoring System,Blood glucose meter for diabetes management,21.44,2
+35,humidifier,0,Humidifier,Portable room humidifier for moisture control,48.02,2
+36,nasal_spray,2,Nasal Spray,Saline nasal spray for sinus relief,4.12,3
+37,stethoscope,2,Stethoscope,Tool for listening to heartbeat and breathing,81.08,3
+38,exercise_bike,3,Exercise Bike,Indoors cycling to improve cardiovascular health,842.49,3
+39,thermometer_,1,Thermometer,Digital thermometer for precise temperature measurement,13.28,3
+40,compression_socks,0,Compression Socks,Support socks for circulation improvement,41.83,3
+41,neti_pot,0,Neti Pot,Sinus rinse kit for nasal irrigation,20.97,3
+42,blood_pressure_monitor,3,Blood Pressure Monitor,Automatic blood pressure monitor for home use,31.03,3
+43,elastic_bandages,1,Elastic Bandages,Elastic bandages for sprain treatment,3.11,3
+44,humidifier,0,Humidifier,Portable room humidifier for moisture control,56.79,3
+45,antiseptic_wipes,3,Antiseptic Wipes,Antiseptic cleansing wipes for wounds,5.49,3
+46,portable_breathalyzer,0,Breathalyzer,Portable breathalyzer to estimate blood alcohol content,94.42,4
+47,elastic_bandages,1,Elastic Bandages,Elastic bandages for sprain treatment,6.65,4
+48,neti_pot,2,Neti Pot,Sinus rinse kit for nasal irrigation,13.92,4
+49,heating_pad,2,Heating Pad,Electric heating pad for pain relief,26.91,4
+50,gel_ice_pack,0,Ice Pack,Reusable gel ice pack for injuries,11.97,4
+51,cholesteral_test_kit,2,Cholesterol Test Kit,Home cholesterol testing kit,26.67,4
+52,nasal_spray,3,Nasal Spray,Saline nasal spray for sinus relief,8.07,4
+53,treadmill,1,Treadmill,Walk in place to lose weight,865.5,4
+54,exercise_bike,0,Exercise Bike,Indoors cycling to improve cardiovascular health,913.93,4
+55,knee_brace,2,Knee Brace,Stabilizing brace for knee joints,16.76,4
+56,eye_glasses,3,Eye Glasses,Prescription strength eye glasses,69.26,4
+57,crutches,1,Walking Crutches,Mobility aids for walking support,161.76,4
+58,gel_ice_pack,3,Ice Pack,Reusable gel ice pack for injuries,12.34,5
+59,blood_pressure_monitor,3,Blood Pressure Monitor,Automatic blood pressure monitor for home use,29.86,5
+60,lactose_intolerance_pills,1,Lactose Intolerance Pills,Supplements to prevent lactose intolerance symptoms,28.79,5
+61,thermometer_,1,Thermometer,Digital thermometer for precise temperature measurement,27.15,5
+62,wrist_brace,0,Wrist Brace,Wrist brace for carpal tunnel relief,30.29,5
+63,first_aid_kit,3,First Aid Kit,Complete first aid kit for emergency treatment,49.28,5
+64,neti_pot,1,Neti Pot,Sinus rinse kit for nasal irrigation,24.36,5
+65,ear_wax_removal_,1,Ear Wax Removal System,A tool for removing ear wax from your ears,32.75,5
+66,nasal_spray,3,Nasal Spray,Saline nasal spray for sinus relief,5.95,5
+67,cholesteral_test_kit,0,Cholesterol Test Kit,Home cholesterol testing kit,39.01,5
+68,prenatal_vitamins,1,Prenatal Vitamins,Daily vitamins for prenatal care,33.16,5
+69,elastic_bandages,3,Elastic Bandages,Elastic bandages for sprain treatment,2.34,5
+70,blood_glucose_monitor,0,Glucose Monitoring System,Blood glucose meter for diabetes management,51.76,5
+71,heating_pad,3,Heating Pad,Electric heating pad for pain relief,31.17,5
+72,blood_pressure_monitor,1,Blood Pressure Monitor,Automatic blood pressure monitor for home use,32.45,6
+73,lactose_intolerance_pills,3,Lactose Intolerance Pills,Supplements to prevent lactose intolerance symptoms,24.25,6
+74,heating_pad,0,Heating Pad,Electric heating pad for pain relief,29.09,6
+75,knee_brace,2,Knee Brace,Stabilizing brace for knee joints,37.78,6
+76,first_aid_kit,0,First Aid Kit,Complete first aid kit for emergency treatment,22.05,6
+77,ear_wax_removal_,0,Ear Wax Removal System,A tool for removing ear wax from your ears,31.64,6
+78,blood_glucose_monitor,2,Glucose Monitoring System,Blood glucose meter for diabetes management,45.84,6
+79,compression_socks,1,Compression Socks,Support socks for circulation improvement,20.73,6
+80,dental_floss,2,Dental Floss,Multi-filament dental floss,5.6,6
+81,prenatal_vitamins,3,Prenatal Vitamins,Daily vitamins for prenatal care,15.78,6
+82,exercise_bike,2,Exercise Bike,Indoors cycling to improve cardiovascular health,818.8,6
+83,elastic_bandages,0,Elastic Bandages,Elastic bandages for sprain treatment,5.55,6
+84,nasal_spray,2,Nasal Spray,Saline nasal spray for sinus relief,6.36,6
+85,stethoscope,0,Stethoscope,Tool for listening to heartbeat and breathing,51.42,6
+86,sunscreen,1,Sunscreen,Broad-spectrum UV protection sunscreen,15.46,6
+87,wrist_brace,3,Wrist Brace,Wrist brace for carpal tunnel relief,24.38,7
+88,nasal_spray,1,Nasal Spray,Saline nasal spray for sinus relief,8.07,7
+89,crutches,3,Walking Crutches,Mobility aids for walking support,87.26,7
+90,sunscreen,3,Sunscreen,Broad-spectrum UV protection sunscreen,20.37,7
+91,exercise_bike,1,Exercise Bike,Indoors cycling to improve cardiovascular health,898.06,7
+92,gel_ice_pack,1,Ice Pack,Reusable gel ice pack for injuries,11.98,7
+93,eye_glasses,2,Eye Glasses,Prescription strength eye glasses,73.48,7
+94,blood_pressure_monitor,1,Blood Pressure Monitor,Automatic blood pressure monitor for home use,39.95,7
+95,humidifier,2,Humidifier,Portable room humidifier for moisture control,36.65,7
+96,knee_brace,1,Knee Brace,Stabilizing brace for knee joints,42.14,7
+97,neti_pot,2,Neti Pot,Sinus rinse kit for nasal irrigation,13.45,7
+98,prenatal_vitamins,0,Prenatal Vitamins,Daily vitamins for prenatal care,17.33,8
+99,blood_glucose_monitor,2,Glucose Monitoring System,Blood glucose meter for diabetes management,41.3,8
+100,blood_pressure_monitor,3,Blood Pressure Monitor,Automatic blood pressure monitor for home use,49.45,8
+101,gel_ice_pack,0,Ice Pack,Reusable gel ice pack for injuries,6.44,8
+102,elastic_bandages,3,Elastic Bandages,Elastic bandages for sprain treatment,2.68,8
+103,crutches,3,Walking Crutches,Mobility aids for walking support,68.33,8
+104,pill_organizer,2,Pill Organizer,Weekly pill organizer for medication management,4.27,8
+105,knee_brace,2,Knee Brace,Stabilizing brace for knee joints,49.54,8
+106,nasal_spray,3,Nasal Spray,Saline nasal spray for sinus relief,10.76,8
+107,humidifier,2,Humidifier,Portable room humidifier for moisture control,60.48,8
+108,thermometer_,0,Thermometer,Digital thermometer for precise temperature measurement,17.53,8
+109,compression_socks,1,Compression Socks,Support socks for circulation improvement,18.63,8
+110,heating_pad,0,Heating Pad,Electric heating pad for pain relief,32.84,9
+111,tooth_brush,0,Tooth Brush,Used to keep your teeth clean,9.85,9
+112,cholesteral_test_kit,2,Cholesterol Test Kit,Home cholesterol testing kit,25.39,9
+113,blood_pressure_monitor,3,Blood Pressure Monitor,Automatic blood pressure monitor for home use,60.89,9
+114,prenatal_vitamins,3,Prenatal Vitamins,Daily vitamins for prenatal care,28.48,9
+115,compression_socks,0,Compression Socks,Support socks for circulation improvement,41.22,9
+116,exercise_bike,3,Exercise Bike,Indoors cycling to improve cardiovascular health,681.7,9
+117,eye_glasses,2,Eye Glasses,Prescription strength eye glasses,112.8,9
+118,neti_pot,0,Neti Pot,Sinus rinse kit for nasal irrigation,19.92,9
+119,knee_brace,2,Knee Brace,Stabilizing brace for knee joints,23.33,9
+120,lactose_intolerance_pills,0,Lactose Intolerance Pills,Supplements to prevent lactose intolerance symptoms,27.64,9
+121,crutches,2,Walking Crutches,Mobility aids for walking support,152.09,9
+122,antiseptic_wipes,0,Antiseptic Wipes,Antiseptic cleansing wipes for wounds,8.08,9
+123,elastic_bandages,0,Elastic Bandages,Elastic bandages for sprain treatment,5.72,9
+124,pill_organizer,0,Pill Organizer,Weekly pill organizer for medication management,3.42,9
+125,humidifier,3,Humidifier,Portable room humidifier for moisture control,61.84,9
+126,blood_glucose_monitor,1,Glucose Monitoring System,Blood glucose meter for diabetes management,28.16,9
+127,gel_ice_pack,1,Ice Pack,Reusable gel ice pack for injuries,5.42,9
+128,treadmill,2,Treadmill,Walk in place to lose weight,581.3,9
+129,ear_plugs_,0,Ear Plugs,Silicone ear plugs for noise reduction,4.89,9
+130,dental_floss,3,Dental Floss,Multi-filament dental floss,5.72,9
+131,sunscreen,2,Sunscreen,Broad-spectrum UV protection sunscreen,17.36,9
+132,thermometer_,0,Thermometer,Digital thermometer for precise temperature measurement,8.35,9
+133,nasal_spray,0,Nasal Spray,Saline nasal spray for sinus relief,10.13,9
+134,portable_breathalyzer,0,Breathalyzer,Portable breathalyzer to estimate blood alcohol content,94.41,9
+135,thermometer_,0,Thermometer,Digital thermometer for precise temperature measurement,27.22,10
+136,antiseptic_wipes,2,Antiseptic Wipes,Antiseptic cleansing wipes for wounds,7.65,10
+137,nasal_spray,2,Nasal Spray,Saline nasal spray for sinus relief,7.05,10
+138,gel_ice_pack,1,Ice Pack,Reusable gel ice pack for injuries,12.38,10
+139,heating_pad,0,Heating Pad,Electric heating pad for pain relief,26.63,10
+140,ear_wax_removal_,0,Ear Wax Removal System,A tool for removing ear wax from your ears,40.85,10
+141,eye_glasses,0,Eye Glasses,Prescription strength eye glasses,93.26,10
+142,blood_pressure_monitor,1,Blood Pressure Monitor,Automatic blood pressure monitor for home use,76.4,10
+143,stethoscope,1,Stethoscope,Tool for listening to heartbeat and breathing,78.49,10
+144,sunscreen,1,Sunscreen,Broad-spectrum UV protection sunscreen,18.94,10
+145,neti_pot,1,Neti Pot,Sinus rinse kit for nasal irrigation,22.1,10
+146,prenatal_vitamins,1,Prenatal Vitamins,Daily vitamins for prenatal care,21.94,10
+147,crutches,1,Walking Crutches,Mobility aids for walking support,77.04,10
+148,elastic_bandages,3,Elastic Bandages,Elastic bandages for sprain treatment,4.03,10
+149,blood_glucose_monitor,1,Glucose Monitoring System,Blood glucose meter for diabetes management,31.59,10
+150,humidifier,0,Humidifier,Portable room humidifier for moisture control,62.67,10
+151,knee_brace,1,Knee Brace,Stabilizing brace for knee joints,23.2,10
+152,portable_breathalyzer,2,Breathalyzer,Portable breathalyzer to estimate blood alcohol content,96.88,11
+153,blood_pressure_monitor,3,Blood Pressure Monitor,Automatic blood pressure monitor for home use,30.47,11
+154,heating_pad,1,Heating Pad,Electric heating pad for pain relief,41.46,11
+155,stethoscope,1,Stethoscope,Tool for listening to heartbeat and breathing,63.13,11
+156,pill_organizer,2,Pill Organizer,Weekly pill organizer for medication management,2.46,11
+157,antiseptic_wipes,2,Antiseptic Wipes,Antiseptic cleansing wipes for wounds,6.56,11
+158,eye_glasses,3,Eye Glasses,Prescription strength eye glasses,159.71,11
+159,treadmill,3,Treadmill,Walk in place to lose weight,893.75,11
+160,gel_ice_pack,3,Ice Pack,Reusable gel ice pack for injuries,14.05,11
+161,lactose_intolerance_pills,3,Lactose Intolerance Pills,Supplements to prevent lactose intolerance symptoms,24.48,11
+162,nasal_spray,2,Nasal Spray,Saline nasal spray for sinus relief,8.2,11
+163,exercise_bike,0,Exercise Bike,Indoors cycling to improve cardiovascular health,756.61,11
+164,neti_pot,3,Neti Pot,Sinus rinse kit for nasal irrigation,12.09,11
+165,crutches,1,Walking Crutches,Mobility aids for walking support,50.52,11
+166,blood_glucose_monitor,1,Glucose Monitoring System,Blood glucose meter for diabetes management,38.36,11
+167,ear_plugs_,0,Ear Plugs,Silicone ear plugs for noise reduction,4.71,11
+168,tooth_brush,1,Tooth Brush,Used to keep your teeth clean,9.78,11
+169,first_aid_kit,2,First Aid Kit,Complete first aid kit for emergency treatment,21.3,11
+170,ear_wax_removal_,0,Ear Wax Removal System,A tool for removing ear wax from your ears,41.81,11
+171,elastic_bandages,0,Elastic Bandages,Elastic bandages for sprain treatment,5.42,11
+172,dental_floss,0,Dental Floss,Multi-filament dental floss,3.46,11
+173,sunscreen,3,Sunscreen,Broad-spectrum UV protection sunscreen,19.35,11
+174,thermometer_,1,Thermometer,Digital thermometer for precise temperature measurement,18.98,11
+175,wrist_brace,3,Wrist Brace,Wrist brace for carpal tunnel relief,27.08,11
+176,cholesteral_test_kit,2,Cholesterol Test Kit,Home cholesterol testing kit,25.65,12
+177,neti_pot,2,Neti Pot,Sinus rinse kit for nasal irrigation,23.44,12
+178,first_aid_kit,1,First Aid Kit,Complete first aid kit for emergency treatment,19.58,12
+179,blood_glucose_monitor,1,Glucose Monitoring System,Blood glucose meter for diabetes management,38.73,12
+180,eye_glasses,0,Eye Glasses,Prescription strength eye glasses,208.66,12
+181,ear_plugs_,0,Ear Plugs,Silicone ear plugs for noise reduction,1.13,12
+182,pill_organizer,2,Pill Organizer,Weekly pill organizer for medication management,7.3,12
+183,prenatal_vitamins,0,Prenatal Vitamins,Daily vitamins for prenatal care,20.97,12
+184,nasal_spray,2,Nasal Spray,Saline nasal spray for sinus relief,8.91,12
+185,compression_socks,3,Compression Socks,Support socks for circulation improvement,38.01,12
+186,stethoscope,2,Stethoscope,Tool for listening to heartbeat and breathing,32.85,12
+187,sunscreen,1,Sunscreen,Broad-spectrum UV protection sunscreen,6.2,12
+188,knee_brace,1,Knee Brace,Stabilizing brace for knee joints,40.18,12
+189,gel_ice_pack,1,Ice Pack,Reusable gel ice pack for injuries,7.75,12
+190,wrist_brace,1,Wrist Brace,Wrist brace for carpal tunnel relief,29.17,12
+191,antiseptic_wipes,2,Antiseptic Wipes,Antiseptic cleansing wipes for wounds,4.05,12
+192,dental_floss,3,Dental Floss,Multi-filament dental floss,3.4,12
+193,tooth_brush,1,Tooth Brush,Used to keep your teeth clean,4.61,12
+194,thermometer_,0,Thermometer,Digital thermometer for precise temperature measurement,11.78,12
+195,heating_pad,1,Heating Pad,Electric heating pad for pain relief,20.21,12
+196,treadmill,0,Treadmill,Walk in place to lose weight,910.01,12
+197,crutches,1,Walking Crutches,Mobility aids for walking support,76.69,12
+198,elastic_bandages,1,Elastic Bandages,Elastic bandages for sprain treatment,2.77,12
+199,blood_pressure_monitor,0,Blood Pressure Monitor,Automatic blood pressure monitor for home use,35.04,12
+200,exercise_bike,0,Exercise Bike,Indoors cycling to improve cardiovascular health,663.8,12
+201,crutches,0,Walking Crutches,Mobility aids for walking support,64.5,13
+202,humidifier,2,Humidifier,Portable room humidifier for moisture control,34.33,13
+203,heating_pad,2,Heating Pad,Electric heating pad for pain relief,43.33,13
+204,pill_organizer,0,Pill Organizer,Weekly pill organizer for medication management,6.98,13
+205,stethoscope,3,Stethoscope,Tool for listening to heartbeat and breathing,97.65,13
+206,dental_floss,0,Dental Floss,Multi-filament dental floss,3.96,13
+207,wrist_brace,3,Wrist Brace,Wrist brace for carpal tunnel relief,16.95,13
+208,compression_socks,2,Compression Socks,Support socks for circulation improvement,45.43,13
+209,ear_wax_removal_,0,Ear Wax Removal System,A tool for removing ear wax from your ears,41.42,13
+210,prenatal_vitamins,0,Prenatal Vitamins,Daily vitamins for prenatal care,29.52,13
+211,blood_pressure_monitor,2,Blood Pressure Monitor,Automatic blood pressure monitor for home use,33.57,13
+212,knee_brace,2,Knee Brace,Stabilizing brace for knee joints,47.45,13
+213,gel_ice_pack,0,Ice Pack,Reusable gel ice pack for injuries,8.01,13
+214,treadmill,1,Treadmill,Walk in place to lose weight,773.38,13
+215,blood_glucose_monitor,1,Glucose Monitoring System,Blood glucose meter for diabetes management,38.3,14
+216,nasal_spray,3,Nasal Spray,Saline nasal spray for sinus relief,4.37,14
+217,humidifier,1,Humidifier,Portable room humidifier for moisture control,48.11,14
+218,wrist_brace,3,Wrist Brace,Wrist brace for carpal tunnel relief,27.15,14
+219,ear_wax_removal_,1,Ear Wax Removal System,A tool for removing ear wax from your ears,37.09,14
+220,neti_pot,1,Neti Pot,Sinus rinse kit for nasal irrigation,21.95,14
+221,treadmill,2,Treadmill,Walk in place to lose weight,509.35,14
+222,compression_socks,3,Compression Socks,Support socks for circulation improvement,38.32,14
+223,sunscreen,2,Sunscreen,Broad-spectrum UV protection sunscreen,15.38,14
+224,gel_ice_pack,2,Ice Pack,Reusable gel ice pack for injuries,10.75,14
+225,knee_brace,3,Knee Brace,Stabilizing brace for knee joints,44.89,14
+226,portable_breathalyzer,3,Breathalyzer,Portable breathalyzer to estimate blood alcohol content,43.07,14
+227,prenatal_vitamins,0,Prenatal Vitamins,Daily vitamins for prenatal care,36.62,15
+228,first_aid_kit,2,First Aid Kit,Complete first aid kit for emergency treatment,37.63,15
+229,dental_floss,1,Dental Floss,Multi-filament dental floss,5.2,15
+230,portable_breathalyzer,2,Breathalyzer,Portable breathalyzer to estimate blood alcohol content,76.34,15
+231,blood_glucose_monitor,0,Glucose Monitoring System,Blood glucose meter for diabetes management,21.9,15
+232,lactose_intolerance_pills,0,Lactose Intolerance Pills,Supplements to prevent lactose intolerance symptoms,20.24,15
+233,blood_pressure_monitor,3,Blood Pressure Monitor,Automatic blood pressure monitor for home use,38.41,15
+234,ear_wax_removal_,1,Ear Wax Removal System,A tool for removing ear wax from your ears,31.67,15
+235,knee_brace,2,Knee Brace,Stabilizing brace for knee joints,32.63,15
+236,compression_socks,1,Compression Socks,Support socks for circulation improvement,24.84,15
+237,gel_ice_pack,3,Ice Pack,Reusable gel ice pack for injuries,11.68,15
+238,sunscreen,3,Sunscreen,Broad-spectrum UV protection sunscreen,10.48,15
+239,elastic_bandages,0,Elastic Bandages,Elastic bandages for sprain treatment,5.76,15
+240,exercise_bike,1,Exercise Bike,Indoors cycling to improve cardiovascular health,592.81,15
+241,cholesteral_test_kit,3,Cholesterol Test Kit,Home cholesterol testing kit,44.22,15
+242,crutches,0,Walking Crutches,Mobility aids for walking support,175.29,15
+243,stethoscope,0,Stethoscope,Tool for listening to heartbeat and breathing,68.63,15
+244,humidifier,1,Humidifier,Portable room humidifier for moisture control,38.81,15
+245,pill_organizer,2,Pill Organizer,Weekly pill organizer for medication management,2.58,15
+246,thermometer_,0,Thermometer,Digital thermometer for precise temperature measurement,7.13,16
+247,crutches,0,Walking Crutches,Mobility aids for walking support,135.17,16
+248,blood_glucose_monitor,3,Glucose Monitoring System,Blood glucose meter for diabetes management,52.51,16
+249,elastic_bandages,2,Elastic Bandages,Elastic bandages for sprain treatment,7.81,16
+250,ear_wax_removal_,1,Ear Wax Removal System,A tool for removing ear wax from your ears,38.37,16
+251,tooth_brush,2,Tooth Brush,Used to keep your teeth clean,1.39,16
+252,wrist_brace,3,Wrist Brace,Wrist brace for carpal tunnel relief,33.09,16
+253,exercise_bike,1,Exercise Bike,Indoors cycling to improve cardiovascular health,773.19,16
+254,ear_plugs_,0,Ear Plugs,Silicone ear plugs for noise reduction,1.6,16
+255,knee_brace,3,Knee Brace,Stabilizing brace for knee joints,54.47,16
+256,thermometer_,1,Thermometer,Digital thermometer for precise temperature measurement,37.21,17
+257,dental_floss,3,Dental Floss,Multi-filament dental floss,3.92,17
+258,heating_pad,3,Heating Pad,Electric heating pad for pain relief,37.73,17
+259,ear_plugs_,1,Ear Plugs,Silicone ear plugs for noise reduction,2.59,17
+260,antiseptic_wipes,3,Antiseptic Wipes,Antiseptic cleansing wipes for wounds,5.37,17
+261,eye_glasses,3,Eye Glasses,Prescription strength eye glasses,141.95,17
+262,neti_pot,1,Neti Pot,Sinus rinse kit for nasal irrigation,23.48,17
+263,compression_socks,3,Compression Socks,Support socks for circulation improvement,36.7,17
+264,wrist_brace,1,Wrist Brace,Wrist brace for carpal tunnel relief,22.57,17
+265,stethoscope,3,Stethoscope,Tool for listening to heartbeat and breathing,58.55,17
+266,portable_breathalyzer,1,Breathalyzer,Portable breathalyzer to estimate blood alcohol content,57.77,17
+267,eye_glasses,1,Eye Glasses,Prescription strength eye glasses,120.89,18
+268,nasal_spray,0,Nasal Spray,Saline nasal spray for sinus relief,7.32,18
+269,elastic_bandages,2,Elastic Bandages,Elastic bandages for sprain treatment,9.77,18
+270,prenatal_vitamins,2,Prenatal Vitamins,Daily vitamins for prenatal care,32.01,18
+271,lactose_intolerance_pills,3,Lactose Intolerance Pills,Supplements to prevent lactose intolerance symptoms,22.66,18
+272,first_aid_kit,0,First Aid Kit,Complete first aid kit for emergency treatment,43.6,18
+273,ear_wax_removal_,1,Ear Wax Removal System,A tool for removing ear wax from your ears,40.72,18
+274,stethoscope,1,Stethoscope,Tool for listening to heartbeat and breathing,83.33,18
+275,blood_pressure_monitor,3,Blood Pressure Monitor,Automatic blood pressure monitor for home use,79.25,18
+276,heating_pad,0,Heating Pad,Electric heating pad for pain relief,22.94,18
+277,gel_ice_pack,3,Ice Pack,Reusable gel ice pack for injuries,11.72,18
+278,antiseptic_wipes,1,Antiseptic Wipes,Antiseptic cleansing wipes for wounds,9.18,18
+279,portable_breathalyzer,1,Breathalyzer,Portable breathalyzer to estimate blood alcohol content,96.53,18
+280,humidifier,2,Humidifier,Portable room humidifier for moisture control,64.26,18
+281,treadmill,3,Treadmill,Walk in place to lose weight,775.73,18
+282,compression_socks,2,Compression Socks,Support socks for circulation improvement,34.25,18
+283,crutches,3,Walking Crutches,Mobility aids for walking support,98.43,18
+284,knee_brace,2,Knee Brace,Stabilizing brace for knee joints,28.14,18
+285,exercise_bike,3,Exercise Bike,Indoors cycling to improve cardiovascular health,830.2,18
+286,thermometer_,0,Thermometer,Digital thermometer for precise temperature measurement,14.75,18
+287,cholesteral_test_kit,0,Cholesterol Test Kit,Home cholesterol testing kit,29.54,18
+288,tooth_brush,2,Tooth Brush,Used to keep your teeth clean,5.84,18
+289,nasal_spray,1,Nasal Spray,Saline nasal spray for sinus relief,4.61,19
+290,knee_brace,2,Knee Brace,Stabilizing brace for knee joints,42.19,19
+291,wrist_brace,2,Wrist Brace,Wrist brace for carpal tunnel relief,26.06,19
+292,ear_plugs_,1,Ear Plugs,Silicone ear plugs for noise reduction,1.34,19
+293,elastic_bandages,2,Elastic Bandages,Elastic bandages for sprain treatment,2.68,19
+294,crutches,3,Walking Crutches,Mobility aids for walking support,173.39,19
+295,compression_socks,3,Compression Socks,Support socks for circulation improvement,37.92,19
+296,first_aid_kit,2,First Aid Kit,Complete first aid kit for emergency treatment,38.35,19
+297,dental_floss,1,Dental Floss,Multi-filament dental floss,4.87,19
+298,humidifier,0,Humidifier,Portable room humidifier for moisture control,48.81,19
+299,exercise_bike,2,Exercise Bike,Indoors cycling to improve cardiovascular health,659.14,19
+300,lactose_intolerance_pills,1,Lactose Intolerance Pills,Supplements to prevent lactose intolerance symptoms,21.03,19
+301,prenatal_vitamins,1,Prenatal Vitamins,Daily vitamins for prenatal care,16.2,19
+302,neti_pot,2,Neti Pot,Sinus rinse kit for nasal irrigation,11.81,19
+303,treadmill,2,Treadmill,Walk in place to lose weight,634.22,19
+304,antiseptic_wipes,2,Antiseptic Wipes,Antiseptic cleansing wipes for wounds,9.66,19
+305,pill_organizer,0,Pill Organizer,Weekly pill organizer for medication management,2.57,19
+306,heating_pad,0,Heating Pad,Electric heating pad for pain relief,27.28,19
+307,crutches,2,Walking Crutches,Mobility aids for walking support,152.11,20
+308,eye_glasses,3,Eye Glasses,Prescription strength eye glasses,240.76,20
+309,portable_breathalyzer,2,Breathalyzer,Portable breathalyzer to estimate blood alcohol content,46.37,20
+310,humidifier,2,Humidifier,Portable room humidifier for moisture control,67.59,20
+311,cholesteral_test_kit,3,Cholesterol Test Kit,Home cholesterol testing kit,40.83,20
+312,ear_wax_removal_,1,Ear Wax Removal System,A tool for removing ear wax from your ears,32.05,20
+313,exercise_bike,0,Exercise Bike,Indoors cycling to improve cardiovascular health,637.79,20
+314,gel_ice_pack,0,Ice Pack,Reusable gel ice pack for injuries,6.71,20
+315,blood_glucose_monitor,2,Glucose Monitoring System,Blood glucose meter for diabetes management,58.5,20
+316,pill_organizer,2,Pill Organizer,Weekly pill organizer for medication management,5.94,20
+317,thermometer_,0,Thermometer,Digital thermometer for precise temperature measurement,16.61,20
+318,elastic_bandages,0,Elastic Bandages,Elastic bandages for sprain treatment,2.84,20
+319,antiseptic_wipes,1,Antiseptic Wipes,Antiseptic cleansing wipes for wounds,7.16,20
+320,first_aid_kit,2,First Aid Kit,Complete first aid kit for emergency treatment,42.03,20

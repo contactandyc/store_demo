@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.highlightText {
+  background-color: #fefcbf !important; /* This color is for bg-yellow-200 */
+}
